@@ -85,5 +85,4 @@ public class javapack_inheritance_1 {
 		m1.PrintInfo();
 
 	}
-
 }
