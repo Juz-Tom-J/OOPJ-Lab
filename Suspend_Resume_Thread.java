@@ -15,7 +15,7 @@ class NewThread implements Runnable{
 		try {
 			for(int i = 6; i>0; i--) {
 				System.out.println(name+":"+i);
-				Thread.sleep(200);
+				Thread.sleep(400);
 			}
 		} catch(InterruptedException e) {
 			System.out.println(name+"existing");
@@ -32,12 +32,12 @@ public class javapack_suspend_resume_thread {
 			Thread.sleep(1000);
 			n1.t.suspend();
 			System.out.println("Suspending thread One");
-			Thread.sleep(1000);
+			Thread.sleep(2000);
 			n1.t.resume();
 			System.out.println("Resuming thread One");
 			n2.t.suspend();
 			System.out.println("Suspending thread Two");
-			Thread.sleep(1000);
+			Thread.sleep(2000);
 			n2.t.resume();
 			System.out.println("Resuming thread Two");
 			}
