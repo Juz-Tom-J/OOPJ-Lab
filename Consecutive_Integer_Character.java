@@ -9,7 +9,7 @@ class I extends Thread
 			try
 			{
 				System.out.print(i+" ");
-				Thread.sleep(1000);
+				Thread.sleep(4000);
 			}
 			catch(Exception e)
 			{
@@ -28,7 +28,7 @@ class A extends Thread
 			try
 			{
 				System.out.print(i+" ");
-				Thread.sleep(1000);
+				Thread.sleep(900);
 			}
 			catch(Exception e)
 			{
