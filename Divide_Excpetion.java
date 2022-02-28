@@ -1,5 +1,3 @@
-package JavaPack;
-
 import java.util.Scanner;
 
 public class javapack_divide_exception {
