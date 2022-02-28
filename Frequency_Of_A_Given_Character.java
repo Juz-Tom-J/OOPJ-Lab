@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class prog_pack_1_frequency_of_character {
+public class Frequency_Of_Character {
 
 public static void main(String[] args) {
 
@@ -23,7 +23,7 @@ for(i=0;i<len-1;i++)
  if(word.charAt(i)==letter)
  count++;
 }
-        System.out.println(word+" has a frequency of "+count +letter);
+        System.out.println(word+" has a frequency of "+count+" "+letter+"'s");
 }
 
 }
