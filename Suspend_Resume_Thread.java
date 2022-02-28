@@ -1,5 +1,3 @@
-package JavaPack;
-
 class NewThread implements Runnable{
 	String name;
 	Thread t;
