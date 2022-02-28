@@ -1,5 +1,3 @@
-package JavaPack;
-
 import java.io.*;
 
 public class javapack_line_of_text {
