@@ -1,5 +1,3 @@
-package Prog_Pack_1;
-
 import java.awt.Frame;
 import java.awt.Label;
 import java.awt.TextArea;
