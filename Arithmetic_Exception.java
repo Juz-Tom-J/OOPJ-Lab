@@ -1,5 +1,3 @@
-package JavaPack;
-
 import java.util.Scanner;
 
 public class javapck_arithmetic_exception {
