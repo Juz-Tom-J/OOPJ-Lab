@@ -1,5 +1,3 @@
-package JavaPack;
-
 class I extends Thread
 { 
 	public void run() 
