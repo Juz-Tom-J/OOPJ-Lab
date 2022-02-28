@@ -1,5 +1,3 @@
-package Prog_Pack_1;
-
 import java.util.Scanner;
 
 public class prog_pack_1_vowelorconsonant {
