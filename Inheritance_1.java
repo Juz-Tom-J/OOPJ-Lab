@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
-class Employee{
+class Emp{
 int BasicSal,TravAll,DearAll,GrossSal;
 
-Employee(int BasicSal, int TravAll, int DearAll)
+Emp(int BasicSal, int TravAll, int DearAll)
 {
 this.BasicSal = BasicSal;
 this.TravAll = TravAll;
@@ -15,7 +15,7 @@ void display()
 {System.out.println("Name of class is Employee");
 }
 }
-class Engineer extends Employee{
+class Engineer extends Emp{
 Engineer(int BasicSal, int TravAll, int DearAll){
 super(BasicSal,TravAll,DearAll);
 }
@@ -28,7 +28,7 @@ void calcSalary()
 }
 }
 
-public class prog_pack_1_inheritance_1 {
+public class Inheritance {
 
 public static void main(String[] args) {
  int BasicSal,TravAll,DearAll;
@@ -46,4 +46,3 @@ public static void main(String[] args) {
  eng.display();
    }
 }
-
