@@ -1,5 +1,3 @@
-package JavaPack;
-
 abstract class Animal{
 	protected int legs;
 	
