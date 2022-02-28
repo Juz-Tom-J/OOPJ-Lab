@@ -1,5 +1,3 @@
-package JavaPack;
-
 import java.util.*;
 
 class MultTable
