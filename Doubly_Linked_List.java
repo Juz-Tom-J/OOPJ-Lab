@@ -1,5 +1,3 @@
-package Prog_Pack_1;
-
 public class prog_pack_1_doubly_linked_list {  
    class Node{  
         int data;  
